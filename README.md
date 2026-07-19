@@ -1,7 +1,8 @@
 # Case Maker Community Board Library
 
 Community-contributed board profiles for [Case Maker](https://electricrv.ca/casemaker) —
-the parametric 3D-printable enclosure generator. Add this library inside Case Maker via
+the parametric 3D-printable enclosure generator
+([app source repo](https://github.com/SlyWombat/CaseMaker)). Add this library inside Case Maker via
 **Sources → Add source** with the published index URL:
 
 ```
@@ -47,6 +48,12 @@ goes straight in the bin. Requirements:
   corner; overhanging connectors (USB lips past the PCB edge) use negative/past-edge
   positions with `facing` set to the wall they exit.
 
+### Wanted boards
+
+Looking for a first contribution? Check the
+[wanted-boards issue](https://github.com/SlyWombat/casemaker-library/issues)
+and anything labeled `good-first-board`.
+
 ### Verified tier
 
 Boards get `"verified": true` once a maintainer (or trusted contributor) has
@@ -58,6 +65,24 @@ the flag. Case Maker shows verified boards with a ✓ badge and lists them first
 
 `index.json` is `{ "name": "...", "boards": [ ...board profiles... ] }` — exactly what
 Case Maker's **Sources** feature consumes. Profiles carry `schemaVersion` (currently 1).
+
+## Gallery
+
+Printed a case from one of these profiles? Add a photo to your board's
+directory (`boards/<id>/photos/`) and link it here in a PR — real prints are
+the best proof the profiles work, and the path to the `verified` badge.
+
+| Board | Photo |
+|---|---|
+| *(your print here)* | |
+
+## Maintainers & verification policy
+
+- PRs are reviewed for **provenance first**: where did the dimensions come
+  from, and can a reviewer cross-check them?
+- The `verified` flag is flipped only by a maintainer after a physical print
+  from the profile is confirmed to fit (photos in the PR help).
+- Questions → [Discussions on the main repo](https://github.com/SlyWombat/CaseMaker/discussions).
 
 ## License
 
