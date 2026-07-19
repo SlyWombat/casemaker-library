@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "example-40x30-breakout",
+  "name": "Example 40×30 Breakout (authoring template)",
+  "manufacturer": "Case Maker Community",
+  "pcb": {
+    "size": { "x": 40, "y": 30, "z": 1.6 }
+  },
+  "mountingHoles": [
+    { "id": "h1", "x": 3.5, "y": 3.5, "diameter": 2.75 },
+    { "id": "h2", "x": 36.5, "y": 3.5, "diameter": 2.75 },
+    { "id": "h3", "x": 3.5, "y": 26.5, "diameter": 2.75 },
+    { "id": "h4", "x": 36.5, "y": 26.5, "diameter": 2.75 }
+  ],
+  "components": [
+    {
+      "id": "usbc-power",
+      "kind": "usb-c",
+      "position": { "x": 15.5, "y": -1, "z": 1.6 },
+      "size": { "x": 9, "y": 7.5, "z": 3.2 },
+      "facing": "-y",
+      "cutoutMargin": 0.5
+    },
+    {
+      "id": "qwiic",
+      "kind": "custom",
+      "position": { "x": 0.5, "y": 11, "z": 1.6 },
+      "size": { "x": 5, "y": 8, "z": 3 },
+      "facing": "-x",
+      "cutoutMargin": 0.6
+    },
+    {
+      "id": "header",
+      "kind": "gpio-header",
+      "position": { "x": 5, "y": 26.5, "z": 1.6 },
+      "size": { "x": 30.48, "y": 2.54, "z": 8.5 },
+      "facing": "+z"
+    }
+  ],
+  "defaultStandoffHeight": 3,
+  "recommendedZClearance": 12,
+  "source": "https://github.com/SlyWombat/casemaker-library#contributing-a-board",
+  "measurementMethod": "open-source-cad",
+  "datasheetRevision": "n/a — fictional example board demonstrating the authoring format",
+  "builtin": false
+}

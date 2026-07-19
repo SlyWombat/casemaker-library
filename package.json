@@ -1,0 +1,13 @@
+{
+  "name": "casemaker-library",
+  "private": true,
+  "type": "module",
+  "description": "Community board profiles for Case Maker",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build-index": "node scripts/validate.mjs && node scripts/build-index.mjs"
+  },
+  "devDependencies": {
+    "zod": "^3.23.8"
+  }
+}
