@@ -13,6 +13,17 @@ and enclosures generate around their real connector and mounting-hole geometry.
 
 ## Contributing a board
 
+**Easiest path — let an AI agent drive:** point Claude Code at
+[`AGENT.md`](AGENT.md) and it will set up the toolchain, interview you about
+your board, author and validate the profile, help you test it in the live
+app, and open the PR:
+
+```
+claude "Fetch https://raw.githubusercontent.com/SlyWombat/casemaker-library/main/AGENT.md and follow it to help me contribute my board"
+```
+
+**Manual path:**
+
 1. Create `boards/<board-id>/board.json` (the directory name must equal the `id` field).
 2. Fill in the profile — see `boards/example-40x30-breakout/board.json` for a commented
    walkthrough of every field, and the
