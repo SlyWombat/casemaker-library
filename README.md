@@ -84,6 +84,14 @@ the best proof the profiles work, and the path to the `verified` badge.
   from the profile is confirmed to fit (photos in the PR help).
 - Questions → [Discussions on the main repo](https://github.com/SlyWombat/CaseMaker/discussions).
 
+## No fit guarantee
+
+Profiles here are measured by volunteers. **There is no guarantee a case
+generated from any profile — verified or not — will print correctly or fit
+your board.** Printer calibration, filament, and board revisions all matter;
+treat your first print as a test article. `verified` means at least one
+maintainer-confirmed fit, nothing more.
+
 ## License
 
 Board profile data is licensed [CC BY 4.0](LICENSE). By contributing you agree to
