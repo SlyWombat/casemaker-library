@@ -36,6 +36,13 @@ goes straight in the bin. Requirements:
   corner; overhanging connectors (USB lips past the PCB edge) use negative/past-edge
   positions with `facing` set to the wall they exit.
 
+### Verified tier
+
+Boards get `"verified": true` once a maintainer (or trusted contributor) has
+physically printed a case from the profile and confirmed the fit. Don't set it
+in your own submission — say "printed: yes" in the PR and a maintainer flips
+the flag. Case Maker shows verified boards with a ✓ badge and lists them first.
+
 ## Format
 
 `index.json` is `{ "name": "...", "boards": [ ...board profiles... ] }` — exactly what

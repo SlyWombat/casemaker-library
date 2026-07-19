@@ -92,6 +92,9 @@ const boardSchema = z.object({
     sourceUrl: z.string().url().optional(),
   }).optional(),
   builtin: z.literal(false).optional(),
+  // Curator-set after a case printed from this profile has been physically
+  // verified to fit. Do NOT set it in your own PR — a maintainer flips it.
+  verified: z.boolean().optional(),
 });
 
 const MAX_OVERHANG = 25; // mm a connector may stick out past the PCB edge
